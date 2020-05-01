@@ -1,5 +1,4 @@
 def main():
-    s1 = "+sell "
     product = {}
     count = {}
     with open('Usernames_Bank.txt', 'r') as f:
