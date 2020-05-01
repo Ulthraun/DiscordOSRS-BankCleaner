@@ -11,7 +11,7 @@ Notepad/Notepad++ works better though.
 from the Old school bot. 
 1. ) Right click the python program and click edit.
 1. ) In the notepad, change "Ulthrauns_bank.txt" to your "username_bank.txt" i.e "Trogdors_Bank.txt"
-```
+```python
      Line number                  Line Description
           5         with open('**Ulthrauns_Bank.txt**', 'r') as f:
          10         with open('**Ulthrauns_Bank.txt**', 'w') as f:
@@ -24,7 +24,7 @@ from the Old school bot.
 [IDLE 3.7](https://www.python.org/downloads/) - The program used to code this.
 
 ## Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Please read CONTRIBUTING for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 There will only be one version of this small program as I don't plan on updating or changing anything in it personally.
@@ -38,5 +38,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## Acknowledgments
 
-Ulthraun - Developer
-Discord OSRS
+* Ulthraun - Developer
+* Discord OSRS
