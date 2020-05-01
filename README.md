@@ -1,4 +1,4 @@
-# DiscordOSRSBankCleaner
+# Discord OSRS Bank Cleaner
 
 Takes the text file from +b --text --full and converts the list into a +sell itemName --cf format.
 
