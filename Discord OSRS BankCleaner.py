@@ -2,12 +2,12 @@ def main():
     s1 = "+sell "
     product = {}
     count = {}
-    with open('Ulthrauns_Bank.txt', 'r') as f:
+    with open('Usernames_Bank.txt', 'r') as f:
         test = f.readline()
         result = process_line(test)
         product = [line.strip('\n') for line in f]
         out = list(map(process_line, product))
-    with open('Ulthrauns_Bank.txt', 'w') as f:
+    with open('Usernames_Bank.txt', 'w') as f:
         f.writelines(["%s\n" % i for i in out])
     print('Success!')
 def process_line(line):
