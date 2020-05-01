@@ -30,7 +30,7 @@ from the Old school bot.
 [IDLE 3.7](https://www.python.org/downloads/) - The program used to code this.
 
 ## Contributing
-Please read [CONTRIBUTING](https://github.com/Ulthraun/DiscordOSRS-BankCleaner/blob/master/CONTRIBUTING) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING](https://github.com/Ulthraun/DiscordOSRS-BankCleaner/blob/master/CONTRIBUTING) for details on the code of conduct, and the process for submitting pull requests to me.
 
 ## Versioning
 There will only be one version of this small program as I don't plan on updating or changing anything in it personally.
