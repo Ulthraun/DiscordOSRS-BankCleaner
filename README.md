@@ -12,22 +12,9 @@ from the Old school bot.
 1. ) Right click the python program and click edit.
 1. ) In the notepad, change "Ulthrauns_bank.txt" to your "username_bank.txt" i.e "Trogdors_Bank.txt"
     *```
-    1. def main():
-    1.    s1 = "+sell "
-    1.    product = {}
-    1.    count = {}
-    1.    with open('**Ulthrauns_Bank.txt**', 'r') as f:
-    1.        test = f.readline()
-    1.        result = process_line(test)
-    1.        product = [line.strip('\n') for line in f]
-    1.        out = list(map(process_line, product))
-    1.    with open('**Ulthrauns_Bank.txt**', 'w') as f:
-    1.        f.writelines(["%s\n" % i for i in out])
-    1.    print('Success!')
-    1. def process_line(line):
-    1.    product, count = str(line).split(':')
-    1.    return f'+sell {count} {product} --cf          '
-    1. main()
+     Line number                  Line Description
+          5         with open('**Ulthrauns_Bank.txt**', 'r') as f:
+         10         with open('**Ulthrauns_Bank.txt**', 'w') as f:
     ```
 1. ) Save the file, run the file, open up the text file in regards to your bank. 
 1. ) Make sure you delete any entries that you DON'T want to sell, and untradables.
