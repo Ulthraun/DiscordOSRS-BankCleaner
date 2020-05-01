@@ -12,7 +12,7 @@ from the Old school bot.
 1. ) Right click the python program and click edit.
 1. ) In the notepad, change "Ulthrauns_bank.txt" to your "username_bank.txt" i.e "Trogdors_Bank.txt"
 ```python
-     Line number                  Line Description
+     #Line number                  #Line Description
           5         with open('**Ulthrauns_Bank.txt**', 'r') as f:
          10         with open('**Ulthrauns_Bank.txt**', 'w') as f:
  ```
