@@ -11,11 +11,11 @@ Notepad/Notepad++ works better though.
 from the Old school bot. 
 1. ) Right click the python program and click edit.
 1. ) In the notepad, change "Ulthrauns_bank.txt" to your "username_bank.txt" i.e "Trogdors_Bank.txt"
-    *```
+```
      Line number                  Line Description
           5         with open('**Ulthrauns_Bank.txt**', 'r') as f:
          10         with open('**Ulthrauns_Bank.txt**', 'w') as f:
-    ```
+ ```
 1. ) Save the file, run the file, open up the text file in regards to your bank. 
 1. ) Make sure you delete any entries that you DON'T want to sell, and untradables.
 1. ) Copy and paste to your hearts content and clean that bank out!
