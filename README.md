@@ -6,21 +6,22 @@ Takes the text file from +b --text --full and converts the list into a +sell ite
 Notepad/Notepad++ works better though.
 
 ### Setup and use
-1. ) Download the python program and put it into a file of your choice. 
+1. ) Download the python program and put it into a file of your choice.
+1. ) Download an interpreter, I'd recommend [IDLE 3.8.2](https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe) <-- this is a direct      download link.
 1. ) Go to discord, type +b --text --full, download the generated text file
 from the Old school bot. 
 1. ) Right click the python program and click edit.
 1. ) In the notepad, change "Usernames_bank.txt" to your "username_bank.txt" i.e "Trogdors_Bank.txt"
 ```python
      #Line number                  #Line Description
-          5         with open('**Usernames_Bank.txt**', 'r') as f:
-         10         with open('**Usernames_Bank.txt**', 'w') as f:
+          5         with open('Usernames_Bank.txt', 'r') as f:
+         10         with open('Usernames_Bank.txt', 'w') as f:
  ```
  to
  ```python
      #Line number                  #Line Description
-          5         with open('**Trogdors_Bank.txt**', 'r') as f:
-         10         with open('**Trogdors_Bank.txt**', 'w') as f:
+          5         with open('Trogdors_Bank.txt', 'r') as f:
+         10         with open('Trogdors_Bank.txt', 'w') as f:
  ```
 1. ) Save the file, run the file, open up the text file in regards to your bank. 
 1. ) Make sure you delete any entries that you DON'T want to sell, and untradables.
